@@ -6,20 +6,15 @@
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: #332200;
-  font-size: 18px;
-  font-family: 'Poppins';
-  font-weight: 600;
-  line-height: 1.33;
-
+  font: 600 1.125/1.33 "Poppins", sans-serif;
 }
 
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .botao {
     padding: 12px 16px;
     font-size: 16px;
   }
-
 }
