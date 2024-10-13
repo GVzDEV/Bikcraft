@@ -73,3 +73,11 @@
     font-size: 1.5rem;
   }
 }
+.font-3-l-i{
+  color: var(--p5, #320);
+  font-family: 'Merriweather';
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 1.33;
+}

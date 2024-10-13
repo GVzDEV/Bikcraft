@@ -1,0 +1,41 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--cor-p1);
+  align-items: end;
+}
+.depoimento-conteudo p {
+  margin-bottom: 32px;
+  max-width: 24ch;
+  position: relative;
+}
+
+.depoimento-conteudo {
+  padding: 80px;
+}
+.depoimento-imagem {
+  height: 100%;
+}
+
+.depoimento img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  object-fit: cover;
+}
+@media (max-width:850px){
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+  .depoimento img {
+    height: 300px;
+  }
+  .depoimento p {
+    font-size: 1.5rem;
+  }
+  .depoimento-conteudo {
+    padding: 32px;
+    text-align: center;
+    justify-self: center;
+  }
+}
